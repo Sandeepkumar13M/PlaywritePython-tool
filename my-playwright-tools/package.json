@@ -1,13 +1,14 @@
 {
-  "name": "my-playwright-tools",
+  "name": "playwright-python-tool",
   "version": "1.0.0",
-  "description": "",
+  "description": "Browser automation starter kit with Playwright for Node.js and Python",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "playwright test",
+    "codegen": "playwright codegen"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["playwright", "automation", "testing", "python", "e2e"],
+  "author": "Sandeepkumar13M",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
